@@ -1,0 +1,41 @@
+.update {
+    background-color: #008bb9;
+}
+
+#bill {
+    margin-left: 20%;
+    height: 1240px;
+    width: 874px;
+}
+
+.seller {
+    margin-left: 20px;
+    border: 10px;
+    border-color: #111;
+}
+
+.buyer {
+    margin-left: 75%;
+    margin-top: -207px;
+}
+
+.billdate {
+    margin: 20px;
+    margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border-top: 1px solid rgb(43, 42, 42);
+}
+

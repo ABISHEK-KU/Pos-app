@@ -1,0 +1,12 @@
+.account {
+    background-color: #ddd;
+    border-radius: 10px;
+    border-width: thin;
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+  }

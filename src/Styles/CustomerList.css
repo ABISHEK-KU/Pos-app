@@ -1,0 +1,85 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border-top: 1px solid rgb(43, 42, 42);
+}
+
+.customer {
+    background-color: #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+select {
+    font-size: large;
+    margin-left: 20px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+}
+
+#addCustomer {
+    font-size: 50px;
+    color: #035672;
+}
+
+#closeCustomer {
+    font-size: 50px;
+    color: #fd6d6d;
+}
+
+button {
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.update {
+    background-color: #008bb9;
+}
+
+.delete {
+    background-color: #f44336;
+}
+
+input[type=text] {
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.customer>input {
+    width: 50%;
+  }
+
+input[type=text]:focus {
+    outline: none;
+    border-radius: 10px;
+}

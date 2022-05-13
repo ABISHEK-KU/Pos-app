@@ -1,0 +1,55 @@
+.createBillCont {
+    text-align: center;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.date {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+}
+
+.qtyControl {
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+input[type='button'],
+.billSubmit {
+    margin-top: 25px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.inc {
+    background-color: #04AA6D;
+}
+
+.dec {
+    background-color: #f44336;
+}
+
+.add {
+    margin-left: 20px;
+    background-color: #e9912c;
+}
+
+.billSubmit {
+    margin-left: 20px;
+    background-color: #008bb9;
+}

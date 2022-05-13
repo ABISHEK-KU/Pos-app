@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+}
+
+.billAppImage {
+    margin-top:110px;
+    height: 400px;
+    animation: zoom-in-zoom-out 30s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1,1);
+    }
+
+    50% {
+        transform: scale(1.2,1.2);
+    }
+
+    100% {
+        transform: scale(1.5,1.5);
+    }
+}

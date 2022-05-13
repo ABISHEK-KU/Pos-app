@@ -1,0 +1,60 @@
+.dashboard {
+    text-align: center;
+}
+
+.statCont {
+    margin-left:11%;
+}
+
+.stat {
+    background-color: #04AA6D;
+    border: 1px solid green;
+    color: white;
+    width: 250px;
+    float: left;
+}
+
+.recentDetails {
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container>.modal {
+    background-color: rgb(218, 247, 166);
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal {
+    width:25%;
+    min-height: 20%;
+    max-height: 20%;
+    border-radius: 10px;
+    border-color: #5cb85c;
+    border-style: solid;
+    margin-left: 5%;
+}
+
+.modal-header {
+    font-size: medium;
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: rgb(255, 255, 255);
+}
+
+.modal-body {
+    padding: 2px 16px;
+    background-color: rgb(218, 247, 166);
+    text-align: center;
+    font-size: x-large;
+}
+
+.chart{
+    margin-top:100px;
+    margin-left:10%;
+}

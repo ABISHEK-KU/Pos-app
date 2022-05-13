@@ -1,0 +1,44 @@
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
+    outline: none;
+    border-radius: 10px;
+}
+
+.signin {
+    background-color: #04AA6D;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 107%;
+    opacity: 0.9;
+}
+
+.signinCont {
+    background-color: #ddd;
+    border-radius: 10px;
+    width: 40%;
+    max-height: 80%;
+    margin-left: 30%;
+}
+
+.error {
+    color: red;
+}
